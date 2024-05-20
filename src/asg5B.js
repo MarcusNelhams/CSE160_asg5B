@@ -2,7 +2,6 @@ import * as THREE from "three";
 import {OBJLoader} from "three/addons/loaders/OBJLoader.js"; // object loader
 import {MTLLoader} from "three/addons/loaders/MTLLoader.js"; // Obj texture loader
 import {OrbitControls} from 'three/addons/controls/OrbitControls.js'; // camera controls
-import { cross } from "three/examples/jsm/nodes/Nodes.js";
 
 // Call main function when DOM content is loaded
 document.addEventListener('DOMContentLoaded', main);
